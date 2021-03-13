@@ -1,0 +1,79 @@
+{
+    "pictures": [
+        {
+            "id": 1,
+            "picture": "../images/art-1.jpg"   
+        },
+        {
+            "id": 2,
+            "picture": "../images/art-2.jpg"
+        },
+        {
+            "id": 3,
+            "picture": "../images/art-3.jpg"
+        }
+    ],
+    
+    "gallery": [
+        {
+            "caption": "Mosaic Name",
+            "author": "Damyanov"
+        },
+        {
+            "caption": "Mosaic Name",
+            "author": "Damyanov"
+        }
+    ],
+    
+    "descriptions": [
+        {
+            "description": {
+            "created": "2021", 
+            "details": ["Ahat", "Marmor"], 
+            "dimensions": {"width": "75cm", "height": "50cm"}, 
+            "price": "5000 &euro;"
+            }
+        },
+        {
+            "description": {
+            "created": "2021", 
+            "details": ["Ahat", "Marmor"], 
+            "dimensions": {"width": "75cm", "height": "50cm"}, 
+            "price": "5000 &euro;"
+            }
+        }
+    ],
+    
+    "cards": [
+        {
+            "caption": "Mosaic Name",
+            "author": "Damyanov",
+            "picture": "../images/art-1.jpg",
+            "description": {
+                "created": "2021", 
+                "details": ["Ahat", "Marmor"], 
+                "dimensions": {"width": "75cm", "height": "50cm"}, 
+                "price": "5000 &euro;"
+            }
+        },
+        {
+            "caption": "01",
+            "author": "Vladimir Damyanov",
+            "picture": "../images/art-1.jpg",
+            "description": {
+                "created": "2021", 
+                "details": ["Ahat", "Marmor"], 
+                "dimensions": {"width": "75cm", "height": "50cm"}, 
+                "price": "5000 &euro;"
+            }
+        },
+        {
+            "caption": "null",
+            "author": "Vladimir Damyanov",
+            "picture": "../images/art-6.jpg",
+            "description": null
+        }
+    ]
+}
+
+
