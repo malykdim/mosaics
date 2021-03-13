@@ -30,16 +30,14 @@
             "description": {
             "created": "2021", 
             "details": ["Ahat", "Marmor"], 
-            "dimensions": {"width": "75cm", "height": "50cm"}, 
-            "price": "5000 &euro;"
+            "dimensions": {"width": "75cm", "height": "50cm"}
             }
         },
         {
             "description": {
             "created": "2021", 
             "details": ["Ahat", "Marmor"], 
-            "dimensions": {"width": "75cm", "height": "50cm"}, 
-            "price": "5000 &euro;"
+            "dimensions": {"width": "75cm", "height": "50cm"}
             }
         }
     ],
@@ -52,8 +50,7 @@
             "description": {
                 "created": "2021", 
                 "details": ["Ahat", "Marmor"], 
-                "dimensions": {"width": "75cm", "height": "50cm"}, 
-                "price": "5000 &euro;"
+                "dimensions": {"width": "75cm", "height": "50cm"} 
             }
         },
         {
@@ -63,8 +60,7 @@
             "description": {
                 "created": "2021", 
                 "details": ["Ahat", "Marmor"], 
-                "dimensions": {"width": "75cm", "height": "50cm"}, 
-                "price": "5000 &euro;"
+                "dimensions": {"width": "75cm", "height": "50cm"}
             }
         },
         {
