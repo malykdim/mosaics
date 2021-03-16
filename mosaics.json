@@ -1,73 +1,97 @@
 {
     "pictures": [
         {
-            "id": 1,
-            "picture": "../images/art-1.jpg"   
+            "id": 9,
+            "picture": "../images/art-9-sun.jpg"   
         },
         {
-            "id": 2,
-            "picture": "../images/art-2.jpg"
+            "id": 19,
+            "picture": "../images/art-19-butterfly.jpg"
         },
         {
-            "id": 3,
-            "picture": "../images/art-3.jpg"
+            "id": 23,
+            "picture": "../images/art-23-bouquet.jpg"
         }
     ],
     
     "gallery": [
         {
-            "caption": "Mosaic Name",
-            "author": "Damyanov"
+            "id": 9,
+            "caption": "Sun",
+            "author": "Vladimir Damyanov"
         },
         {
-            "caption": "Mosaic Name",
-            "author": "Damyanov"
+            "id": 19,
+            "caption": "Butterfly",
+            "author": "Damyan Damyanov"
+        },
+        {
+            "id": 23,
+            "caption": "Bouquet",
+            "author": "Vladimir Damyanov"
         }
     ],
     
     "descriptions": [
         {
+            "id": 9,
             "description": {
             "created": "2021", 
-            "details": ["Ahat", "Marmor"], 
-            "dimensions": {"width": "75cm", "height": "50cm"}
+            "dimensions": {"width": "75cm", "height": "75cm"},
+            "materials": ["amethyst", "agate", "jasper", "tiger's eye", "mountain crystal", "labrador", "pyryt", "firestone", "onyx", "marble"]
             }
         },
         {
+            "id": 19,
             "description": {
             "created": "2021", 
-            "details": ["Ahat", "Marmor"], 
-            "dimensions": {"width": "75cm", "height": "50cm"}
+            "dimensions": {"width": "75cm", "height": "75cm"},
+            "materials": ["labrador", "pyryt", "firestone", "onyx", "marble"]
+            }
+        },
+        {
+            "id": 23,
+            "description": {
+            "created": "2021", 
+            "dimensions": {"width": "50cm", "height": "75cm"},
+            "materials": ["agate", "tiger's eye", "labrador", "firestone", "onyx"]
             }
         }
     ],
     
     "cards": [
         {
-            "caption": "Mosaic Name",
-            "author": "Damyanov",
-            "picture": "../images/art-1.jpg",
+            "id": 9,
+            "caption": "Sun",
+            "author": "Vladimir Damyanov",
+            "picture": "../images/art-9-sun.jpg",
             "description": {
                 "created": "2021", 
-                "details": ["Ahat", "Marmor"], 
-                "dimensions": {"width": "75cm", "height": "50cm"} 
+                "dimensions": {"width": "75cm", "height": "75cm"},
+                "materials": ["amethyst", "agate", "jasper", "tiger's eye", "mountain crystal", "labrador", "pyryt", "firestone", "onyx", "marble"]
             }
         },
         {
-            "caption": "01",
+            "id": 19,
+            "caption": "Butterfly",
             "author": "Vladimir Damyanov",
-            "picture": "../images/art-1.jpg",
+            "picture": "../images/art-19-butterfly.jpg",
             "description": {
                 "created": "2021", 
-                "details": ["Ahat", "Marmor"], 
-                "dimensions": {"width": "75cm", "height": "50cm"}
+                "dimensions": {"width": "75cm", "height": "75cm"},
+                "materials": ["labrador", "pyryt", "firestone", "onyx", "marble"]
             }
         },
         {
-            "caption": "null",
+            "id": 23,
+            "caption": "Bouquet",
             "author": "Vladimir Damyanov",
-            "picture": "../images/art-6.jpg",
-            "description": null
+            "picture": "../images/art-23-bouquet.jpg",
+            "description": {
+                "created": "2021", 
+                "dimensions": {"width": "75cm", "height": "75cm"},
+                "materials": ["agate", "tiger's eye", "labrador", "firestone", "onyx"]
+            }
         }
     ]
 }
