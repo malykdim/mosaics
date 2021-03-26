@@ -2,33 +2,76 @@
     "gallery": [
         {
             "id": 9,
+            "gridClass": "w-2 h-2",
             "picture": "/thestonemagic/images/art-9-sun.jpg",
             "caption": "Sun",
             "author": "Vladimir Damyanov",
             "url": "/gallery/sun"
         },
         {
+            "id": 13,
+            "gridClass": "w-3 h-3",
+            "picture": "/thestonemagic/images/art-13-dragon.jpg",
+            "caption": "Dragon",
+            "author": "Vladimir Damyanov",
+            "url": "/gallery/dragon"
+        },
+        {
+            "id": 14,
+            "gridClass": "w-4 h-2",
+            "picture": "/thestonemagic/images/art-14-galaxy.jpg",
+            "caption": "Galaxy",
+            "author": "Vladimir Damyanov",
+            "url": "/gallery/galaxy"
+        },
+        {
             "id": 19,
+            "gridClass": "w-2 h-2",
             "picture": "/thestonemagic/images/art-19-butterfly.jpg",
             "caption": "Butterfly",
             "author": "Damyan Damyanov",
             "url": "/gallery/butterfly"
         },
         {
+            "id": 22,
+            "gridClass": "w-2 h-2",
+            "picture": "/thestonemagic/images/art-22-cactus.jpg",
+            "caption": "Cactus",
+            "author": "Vladimir Damyanov",
+            "url": "/gallery/cactus"
+        },
+        {
             "id": 23,
+            "gridClass": "w-2 h-3",
             "picture": "/thestonemagic/images/art-23-bouquet.jpg",
             "caption": "Bouquet",
-            "author": "Vladimir Damyanov",
+            "author": "Damyan Damyanov",
             "url": "/gallery/bouqet"
         },
         {
-            "id": 30,
-            "picture": "/thestonemagic/images/art-30-nostalgia.jpg",
-            "caption": "Nostalgia",
-            "author": "Konstantin Damyanov",
-            "url": "/gallery/nostalgia"
+            "id": 25,
+            "gridClass": "w-2 h-2",
+            "picture": "/thestonemagic/images/art-25-fiancee.jpg",
+            "caption": "Fiancee",
+            "author": "Damyan Damyanov",
+            "url": "/gallery/fiancee"
+        },
+        {
+            "id": 26,
+            "gridClass": "w-2 h-3",
+            "picture": "/thestonemagic/images/art-26-music.jpg",
+            "caption": "Music",
+            "author": "Damyan Damyanov",
+            "url": "/gallery/music"
+        },
+        {
+            "id": 27,
+            "gridClass": "w-2 h-3",
+            "picture": "/thestonemagic/images/art-27-sailing.jpg",
+            "caption": "Sailing",
+            "author": "Damyan Damyanov",
+            "url": "/gallery/sailing"
         }
-        
     ],
     
     "Sun": {
@@ -41,6 +84,32 @@
             "created": "2008", 
             "dimensions": {"width": "75cm", "height": "75cm"},
             "materials": ["amethyst", "agate", "jasper", "tiger's eye", "mountain crystal", "labrador", "pyryt", "firestone", "onyx", "marble"]
+        }
+    },
+    
+    "Dragon": {
+        "id": 13,
+        "url": "/gallery/dragon",
+        "picture": "/thestonemagic/images/art-13-dragon.jpg",
+        "caption": "Dragon",
+        "author": "Vladimir Damyanov",
+        "description": {
+            "created": "2016", 
+            "dimensions": {"width": "75cm", "height": "75cm"},
+            "materials": ["amethyst", "mountain crystal", "pyryt", "firestone", "onyx", "marble"]
+        }
+    },
+    
+    "Galaxy": {
+        "id": 14,
+        "url": "/gallery/galaxy",
+        "picture": "/thestonemagic/images/art-14-galaxy.jpg",
+        "caption": "Galaxy",
+        "author": "Vladimir Damyanov",
+        "description": {
+            "created": "2003", 
+            "dimensions": {"width": "50cm", "height": "75cm"},
+            "materials": ["agate", "jasper", "tiger's eye", "mountain crystal", "pyryt", "marble"]
         }
     },
     
@@ -57,6 +126,19 @@
         }
     },
     
+    "Cactus": {
+        "id": 22,
+        "url": "/gallery/cactus",
+        "picture": "/thestonemagic/images/art-22-cactus.jpg",
+        "caption": "Cactus",
+        "author": "Vladimir Damyanov",
+        "description": {
+            "created": "2013", 
+            "dimensions": {"width": "75cm", "height": "75cm"},
+            "materials": ["agate", "tiger's eye", "labrador", "firestone", "onyx"]
+        }
+    },
+    
     "Bouquet": {
         "id": 23,
         "url": "/gallery/bouquet",
@@ -70,17 +152,43 @@
         }
     },
     
-    "nostalgia": {
-            "id": 30,
-            "url": "/gallery/nostalgia",
-            "picture": "/thestonemagic/images/art-30-nostalgia.jpg",
-            "caption": "Nostalgia",
-            "author": "Konstantin Damyanov",
+    "Fiancee": {
+        "id": 25,
+        "url": "/gallery/fiancee",
+        "picture": "/thestonemagic/images/art-25-fiancee.jpg",
+        "caption": "Fiancee",
+        "author": "Damyan Damyanov",
+        "description": {
+            "created": "2008", 
+            "dimensions": {"width": "75cm", "height": "75cm"},
+            "materials": ["amethyst", "agate", "jasper", "tiger's eye", "mountain crystal", "labrador", "pyryt", "firestone", "onyx", "marble"]
+        }
+    },
+    
+    "Music": {
+            "id": 26,
+            "url": "/gallery/music",
+            "picture": "/thestonemagic/images/art-26-music.jpg",
+            "caption": "Music",
+            "author": "Damyan Damyanov",
             "description": {
                 "created": "2020", 
-                "dimensions": {"width": "75cm", "height": "75cm"},
+                "dimensions": {"width": "75cm", "height": "50cm"},
                 "materials": ["agate", "tiger's eye", "labrador", "firestone", "onyx"]
             }
+    },
+    
+    "Sailing": {
+        "id": 27,
+        "url": "/gallery/sailing",
+        "picture": "/thestonemagic/images/art-27-sailing.jpg",
+        "caption": "Sailing",
+        "author": "Damyan Damyanov",
+        "description": {
+            "created": "2018", 
+            "dimensions": {"width": "75cm", "height": "75cm"},
+            "materials": ["mountain crystal", "labrador", "pyryt", "firestone", "onyx", "marble"]
+        }
     }
 }
 
