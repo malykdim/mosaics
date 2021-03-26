@@ -2,7 +2,7 @@
     "gallery": [
         {
             "id": 9,
-            "gridClass": "w-2 h-2",
+            "gridClass": "Card w-1 h-1",
             "picture": "/thestonemagic/images/art-9-sun.jpg",
             "caption": "Sun",
             "author": "Vladimir Damyanov",
@@ -10,47 +10,15 @@
         },
         {
             "id": 13,
-            "gridClass": "w-3 h-3",
+            "gridClass": "Card w-2 h-2",
             "picture": "/thestonemagic/images/art-13-dragon.jpg",
             "caption": "Dragon",
             "author": "Vladimir Damyanov",
             "url": "/gallery/dragon"
         },
         {
-            "id": 14,
-            "gridClass": "w-4 h-2",
-            "picture": "/thestonemagic/images/art-14-galaxy.jpg",
-            "caption": "Galaxy",
-            "author": "Vladimir Damyanov",
-            "url": "/gallery/galaxy"
-        },
-        {
-            "id": 19,
-            "gridClass": "w-2 h-2",
-            "picture": "/thestonemagic/images/art-19-butterfly.jpg",
-            "caption": "Butterfly",
-            "author": "Damyan Damyanov",
-            "url": "/gallery/butterfly"
-        },
-        {
-            "id": 22,
-            "gridClass": "w-2 h-2",
-            "picture": "/thestonemagic/images/art-22-cactus.jpg",
-            "caption": "Cactus",
-            "author": "Vladimir Damyanov",
-            "url": "/gallery/cactus"
-        },
-        {
-            "id": 23,
-            "gridClass": "w-2 h-3",
-            "picture": "/thestonemagic/images/art-23-bouquet.jpg",
-            "caption": "Bouquet",
-            "author": "Damyan Damyanov",
-            "url": "/gallery/bouqet"
-        },
-        {
             "id": 25,
-            "gridClass": "w-2 h-2",
+            "gridClass": "Card w-1 h-1",
             "picture": "/thestonemagic/images/art-25-fiancee.jpg",
             "caption": "Fiancee",
             "author": "Damyan Damyanov",
@@ -58,21 +26,106 @@
         },
         {
             "id": 26,
-            "gridClass": "w-2 h-3",
+            "gridClass": "Card w-2 h-3",
             "picture": "/thestonemagic/images/art-26-music.jpg",
             "caption": "Music",
             "author": "Damyan Damyanov",
             "url": "/gallery/music"
         },
         {
+            "id": 22,
+            "gridClass": "Card w-1 h-1",
+            "picture": "/thestonemagic/images/art-22-cactus.jpg",
+            "caption": "Cactus",
+            "author": "Vladimir Damyanov",
+            "url": "/gallery/cactus"
+        },
+        {
+            "id": 30,
+            "gridClass": "Card w-1 h-3",
+            "picture": "/thestonemagic/images/art-30-unity.jpg",
+            "caption": "Unity",
+            "author": "Vladimir Damyanov",
+            "url": "/gallery/unity"
+        },
+        {
+            "id": 14,
+            "gridClass": "Card w-2 h-1",
+            "picture": "/thestonemagic/images/art-14-galaxy.jpg",
+            "caption": "Galaxy",
+            "author": "Vladimir Damyanov",
+            "url": "/gallery/galaxy"
+        },
+        {
+            "id": 19,
+            "gridClass": "Card w-1 h-1",
+            "picture": "/thestonemagic/images/art-19-butterfly.jpg",
+            "caption": "Butterfly",
+            "author": "Damyan Damyanov",
+            "url": "/gallery/butterfly"
+        },
+        {
             "id": 27,
-            "gridClass": "w-2 h-3",
+            "gridClass": "Card w-1 h-2",
             "picture": "/thestonemagic/images/art-27-sailing.jpg",
             "caption": "Sailing",
             "author": "Damyan Damyanov",
             "url": "/gallery/sailing"
+        },
+        {
+            "id": 5,
+            "gridClass": "Card w-1 h-1",
+            "picture": "/thestonemagic/images/art-5-delight.jpg",
+            "caption": "Delight",
+            "author": "Vladimir Damyanov",
+            "url": "/gallery/delight"
+        },
+        {
+            "id": 31,
+            "gridClass": "Card w-1 h-2",
+            "picture": "/thestonemagic/images/art-31-tear.jpg",
+            "caption": "Tear",
+            "author": "Damyan Damyanov",
+            "url": "/gallery/tear"
+        },
+        {
+            "id": 23,
+            "gridClass": "Card w-2 h-2",
+            "picture": "/thestonemagic/images/art-23-bouquet.jpg",
+            "caption": "Bouquet",
+            "author": "Damyan Damyanov",
+            "url": "/gallery/bouqet"
+        },
+        {
+            "id": 32,
+            "gridClass": "Card w-1 h-1",
+            "picture": "/thestonemagic/images/art-32-ocean.jpg",
+            "caption": "Ocean",
+            "author": "Damyan Damyanov",
+            "url": "/gallery/ocean"
+        },
+        {
+            "id": 33,
+            "gridClass": "Card w-1 h-1",
+            "picture": "/thestonemagic/images/art-33-prometheus.jpg",
+            "caption": "Prometheus",
+            "author": "Damyan Damyanov",
+            "url": "/gallery/prometheus"
         }
     ],
+    
+    "Delight": {
+        "id": 5,
+        "url": "/gallery/delight",
+        "picture": "/thestonemagic/images/art-5-delight.jpg",
+        "caption": "Delight",
+        "author": "Vladimir Damyanov",
+        "description": {
+            "created": "1986", 
+            "dimensions": {"width": "75cm", "height": "75cm"},
+            "materials": ["amethyst", "agate", "jasper", "tiger's eye", "mountain crystal", "labrador", "pyryt", "firestone", "onyx", "marble"]
+        }
+    },
     
     "Sun": {
         "id": 9,
@@ -188,6 +241,58 @@
             "created": "2018", 
             "dimensions": {"width": "75cm", "height": "75cm"},
             "materials": ["mountain crystal", "labrador", "pyryt", "firestone", "onyx", "marble"]
+        }
+    },
+    
+    "Unity": {
+        "id": 30,
+        "url": "/gallery/unity",
+        "picture": "/thestonemagic/images/art-30-unity.jpg",
+        "caption": "Unity",
+        "author": "Vladimir Damyanov",
+        "description": {
+            "created": "2019", 
+            "dimensions": {"width": "30cm", "height": "75cm"},
+            "materials": ["mountain crystal", "labrador", "pyryt", "firestone", "onyx", "marble"]
+        }
+    },
+    
+    "Tear": {
+        "id": 31,
+        "url": "/gallery/tear",
+        "picture": "/thestonemagic/images/art-31-tear.jpg",
+        "caption": "Tear",
+        "author": "Damyan Damyanov",
+        "description": {
+            "created": "2015", 
+            "dimensions": {"width": "50cm", "height": "75cm"},
+            "materials": ["mountain crystal", "labrador", "pyryt", "firestone", "onyx", "marble"]
+        }
+    },
+    
+    "Ocean": {
+        "id": 32,
+        "url": "/gallery/ocean",
+        "picture": "/thestonemagic/images/art-32-ocean.jpg",
+        "caption": "Ocean",
+        "author": "Damyan Damyanov",
+        "description": {
+            "created": "2015", 
+            "dimensions": {"width": "50cm", "height": "75cm"},
+            "materials": ["mountain crystal", "firestone", "onyx", "marble"]
+        }
+    },
+    
+    "Prometheus": {
+        "id": 33,
+        "url": "/gallery/prometheus",
+        "picture": "/thestonemagic/images/art-33-prometheus.jpg",
+        "caption": "Prometheus",
+        "author": "Damyan Damyanov",
+        "description": {
+            "created": "2015", 
+            "dimensions": {"width": "50cm", "height": "75cm"},
+            "materials": ["labrador", "pyryt", "firestone", "onyx", "marble"]
         }
     }
 }
